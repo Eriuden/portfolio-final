@@ -9,6 +9,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./img/photo-1585314062340-f1a5a7c9328d.jpg");
+  background-size:cover;
 }
 
 code {

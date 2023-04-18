@@ -1,7 +1,8 @@
 import React from 'react'
+import { Circle } from '../components/Circle'
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <div className='flex flex-row  justify-center'><Circle/></div>
   )
 }

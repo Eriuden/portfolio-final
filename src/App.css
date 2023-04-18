@@ -1,5 +1,16 @@
+@font-face {
+  font-family: "Planewalker-italic";
+  src: url("./fonts/planewalker/Planewalker Bold Italic.otf");
+}
+
+@font-face {
+  font-family: "Planewalker-bold";
+  src: url("./fonts/planewalker/Planewalker Bold.otf");
+}
+
 .App {
   text-align: center;
+  background: cover;
 }
 
 .App-logo {
@@ -26,6 +37,31 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.navBook {
+  background-image: url("./img/lHYX1C.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "Planewalker-italic";
+}
+
+.zone-nom {
+  color:gold;
+  font-family: "Planewalker-italic";
+  text-align: center;
+  font-size: 200%;
+  text-shadow: 2px 2px #000;
+}
+
+.navBook p {
+  font-family: "planewalker-bold"; 
+}
+
+.circle {
+  background-image: url("./img/magic-circle-sigil-circle-thumbnail.jpg");
+  backgournd-size: contain;
+  background-repeat: no-repeat;
 }
 
 @keyframes App-logo-spin {
