@@ -1,6 +1,13 @@
 import React from 'react'
 import { useState } from 'react'
 import"../../Modal.css";
+import ImagesJs from "../../img/Javascript_badge.png"
+import ImagesMongo from "../../img/mongodb-logo.png"
+import ImagesReact from "../../img/logo-react-js.png"
+import ImagesSymfony from "../../img/symfony_black_02.png"
+import ImagesMySQL from "../../img/mysql-logo-text-face-symbol-transparent-png-2425830.png"
+import ImagesTailwind from "../../img/tailwindcss.png"
+import ImagesNode from "../../img/Node.js_logo.svg.png"
 
 export const LanguageModal = ({props}) => {
   const [isOpen, setIsOpen] = useState(true)

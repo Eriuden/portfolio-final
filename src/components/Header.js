@@ -8,7 +8,7 @@ export const Header = () => {
     const [hamburger, setHamburger] = useState(false)
 
   return (
-    <div>
+    <div className='sticky top-0'>
         <div className=' mt-5 text-sm sm:text-md md:text-lg lg:text-xl xl: text-xl zone-nom'>
             <h1 className='myName'>Antoine Carrette</h1>
             <h2 className='nickName'>Le magicien du code</h2>
