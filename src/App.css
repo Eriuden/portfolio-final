@@ -58,6 +58,12 @@
   font-family: "planewalker-bold"; 
 }
 
+.modalBackground {
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "Planewalker-italic";
+}
+
 .circle {
   background-image: url("./img/506-5062460_spell-circle-png-transparent-background-magic-circle-transparent.png");
   backgournd-size: contain;
@@ -84,4 +90,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.JS {
+  margin-top: 2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  
+}
+
+.React {
+  margin-top: 2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+.Tailwind {
+  margin-top: 2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+.Node {
+  margin-top: 2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+.Symfony {
+  margin-top: 2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+.MySQL {
+  margin-top: 2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+.MongoDB {
+  margin-top: 2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
 }
