@@ -26,9 +26,9 @@ export const Circle = (props) => {
       }
 
   return (
-    <div className='circle '>
-        <div className="circle-nav">
-            <ul className="flex flex-row justify-around">
+    <div className='circle max-w-full '>
+        <div className="circle-nav max-h-full">
+            <ul className="flex flex-row justify-around max-h-full">
                 <li onClick={handleModals} 
                     id="language" 
                     className="mx-6">Langages et arcanes
@@ -36,7 +36,7 @@ export const Circle = (props) => {
 
                 <li onClick={handleModals} 
                     id="exp" 
-                    className="mx-6">Mes expériences et projets
+                    className="mx-6 self-end">Mes expériences et projets
                 </li>
 
                 <li onClick={handleModals} 

@@ -10,15 +10,15 @@ export const ExpModal = ({props}) => {
   return (
     <>
         {isOpen ? (
-            <div className=' m-x-[50%] modalBackground'>
-                <div className='modalContainer'>
+            <div className=' m-x-[50%] modalBackground flex flex-col text-lg'>
+                <div className='modalContainer  mt-2 mb-6'>
                     <h2>Mes créations</h2>
                     <button onClick={close}>X</button>
                 </div>
 
                 <div className='Projets'>
 
-                    <h3>Gunplaza</h3>
+                    <h3 className='mb-6'>Gunplaza</h3>
                     <p>
                         Projet de fin de formation pour ma première formation. Crée avec
                         Symfony majoritairement (comporte du JS et CSS/bootstrap).
@@ -30,8 +30,8 @@ export const ExpModal = ({props}) => {
                         utilisateurs sécurisé.
                     </p>
 
-                    <h3>Carte Age</h3>
-                    <a href='https://github.com/Eriuden/MERN-carte-age'>Lien Github</a>
+                    <h3 className='mt-6 mb-6'>Carte Age</h3>
+                    <a href='https://github.com/Eriuden/MERN-carte-age' className='mb-6'>Lien Github</a>
                     <p>
                         "Remake" en MERN du projet de fin de la seconde formation.
                     </p>
@@ -43,7 +43,7 @@ export const ExpModal = ({props}) => {
                         nottament permis de tester les hooks, et expérimenter en design.
                     </p>
 
-                    <h3 className="NomProjet">Trouve ton toit</h3>
+                    <h3 className="mt-6 mb-6">Trouve ton toit</h3>
 
                     <p className="ProjetP">
                         Un projet en équipe, plus précisément, pour un Hackathon, à
@@ -59,21 +59,26 @@ export const ExpModal = ({props}) => {
                         proches s'afficheront, et inversement.
                     </p>
 
-                    <h3>Beowulf: Kaijus observator</h3>
+                    <h3 className="mt-6 mb-6">Beowulf: Kaijus observator</h3>
                     <a href='https://github.com/Eriuden/Beowulf-Kaijus-Observator'>Lien github</a>
-                    <p>
+                    <p className='mt-2 mb-2'>
                         Juste un projet personnel comme ça, j'avais envie de continuer
                         après un gros gain de motivation suite à un hackathon triomphal.
                         Crée avec React et NodeJs, BDD en mongoDB.
                     </p>
-                    <p>
+
+                    <p className='mt-2 mb-2'>
                         Site d'une agence secrète fictive, Beowulf, le nom vient d'un
                         héros de la mythologie scandinave connu pour sa propension au
                         meurtre de monstre. L'agence est chargé de la surveillance
                         (voire traque dans le cas des menaces) des kaijus, au cas où
                         vous ne savez pas ce qu'est un kaiju, un monstre géant du cinéma japonais,
                         dites vous que Godzilla
-                        est le plus célèbre (d'ou son surnom de roi des kaijus). Un
+                        est le plus célèbre (d'ou son surnom de roi des kaijus).
+                    </p>
+
+                    <p className='mt-2 mb-2'>
+                        Un
                         formulaire de connexion rend impossible l'accès du site à
                         n'importe qui, et pas de formulaire d'inscription ici, il faut
                         respecter la logique, on ne va pas donner au premier quidam des
@@ -86,6 +91,7 @@ export const ExpModal = ({props}) => {
                         sujet, enfin, si l'animal est tué par l'agence où un autre
                         kaiju, il est possible d'effacer le dossier.
                     </p>
+
                 </div>
             </div>
         ): ""}

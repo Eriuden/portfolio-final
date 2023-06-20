@@ -18,15 +18,15 @@ export const LanguageModal = ({props}) => {
   return (
     <>
         {isOpen ? (
-          <div className='modalBackground flex flex-col text-xs'>
-            <div className='modalContainer'>
+          <div className='modalBackground flex flex-col text-lg'>
+            <div className='modalContainer mt-2 mb-6'>
                 <h2 className='title'>Languages et arcanes</h2>
                 <button className='titleCloseBtn' onClick={close}>X</button>              
             </div>
 
             <div className="JS">
-              <img className="Images max-w-[10%]" src={ImagesJs} alt="JS" />
-              <p className="techsP">
+              <img className="Images max-w-[10%] mb-6" src={ImagesJs} alt="JS" />
+              <p className="techsP mx-2">
                 C'est le premier vrai langage auquel je me suis frotté, c'est en
                 partie pour ça que j'ai vite décidé de me spécialiser dans celui ci au
                 lieu de me disperser et me perdre. Je l'utilise encore en brut de
@@ -35,9 +35,9 @@ export const LanguageModal = ({props}) => {
             </div>
 
             <div className="React flex flex-col">
-              <img className="Images max-w-[10%]" src={ImagesReact} alt="React" />
+              <img className="Images max-w-[10%] mb-6" src={ImagesReact} alt="React" />
 
-              <p className="techsP">
+              <p className=" mx-2">
                 {" "}
                 La librairie (et non framework contrairement à la croyance populaire)
                 de JS sur laquelle j'ai décide de me spécialiser, pour plusieurs
@@ -47,7 +47,7 @@ export const LanguageModal = ({props}) => {
                 choix judicieux.
               </p>
 
-              <p className="techsP">
+              <p className="mx-2">
                 Aussi, elle est pensée pour fonctionner en symbiose avec Node, ce que
                 j'ai pu tester et confirmer, elle serait aussi utilisée en combinaison
                 avec le framework PHP Symfony, étant un grand amoureux de celui ci,
@@ -56,8 +56,8 @@ export const LanguageModal = ({props}) => {
             </div>
 
             <div className="Tailwind">
-              <img className="Images max-w-[10%]" src={ImagesTailwind} alt="Tailwind" />
-              <p className="techsP">
+              <img className="Images max-w-[10%] mb-6" src={ImagesTailwind} alt="Tailwind" />
+              <p className="mx-2">
                 Un frameword de CSS, tout comme bootstrap, mais je vais être honnête,
                 dix fois mieux à mes yeux. En effet, si ici aussi il permet de
                 facilement gérer le responsive, il permet bien plus de libertés quand
@@ -67,9 +67,9 @@ export const LanguageModal = ({props}) => {
             </div>
 
             <div className="Node">
-              <img className="Images max-w-[10%]" src={ImagesNode} alt="Node" />
+              <img className="Images max-w-[10%] mb-6" src={ImagesNode} alt="Node" />
 
-              <p className="techsP">
+              <p className="mx-2">
                 Le fameux environnement back-end de Javascript, où quand l'un des plus
                 célèbres langage front-end décide de se passer de sa combinaison
                 historique avec PHP pour gérer le back-end. React a été pensé, comme
@@ -78,16 +78,16 @@ export const LanguageModal = ({props}) => {
                 nous le hurle.
               </p>
 
-              <p className="techsP">
+              <p className="mx-2">
                 Et en effet, avec l'usage d'Axios, j'ai pu tester l'ensemble et voir
                 qu'un site complet est réalisable de cette manière.
               </p>
             </div>
 
             <div className="MongoDB">
-              <img className="Images max-w-[10%]" src={ImagesMongo} alt="MongoDB" />
+              <img className="Images max-w-[10%] mb-6" src={ImagesMongo} alt="MongoDB" />
 
-              <p className="techsP">
+              <p className="mx-2">
                 Découvert alors que je m'entrainais sur un projet en MERN, je ne l'ai
                 encore que peu utilisé, mais son aspect plus moderne/pratique, vis à
                 vis de MySQL est assez séduisant, bien que l'installation soit un peu
@@ -99,9 +99,9 @@ export const LanguageModal = ({props}) => {
             </div>
 
             <div className="MySQL">
-              <img className="Images max-w-[10%]" src={ImagesMySQL} alt="MySQL" />
+              <img className="Images max-w-[10%] mb-6" src={ImagesMySQL} alt="MySQL" />
 
-              <p className="techsP">
+              <p className="mx-2">
                 Le système de gestion de base de données avec lequel j'ai commencé le
                 back-end, avec MongoDB, c'est le principal traitement de BDD, il
                 marche parfaitement avec Symfony notamment. Si j'ai pris l'habitude de
@@ -111,16 +111,16 @@ export const LanguageModal = ({props}) => {
             </div>
 
             <div className="Symfony">
-              <img className="Images max-w-[10%]" src={ImagesSymfony} alt="symfony" />
+              <img className="Images max-w-[10%] mb-6" src={ImagesSymfony} alt="symfony" />
 
-              <p className="techsP">
+              <p className="mx-2">
                 Avec Laravel, LE framework PHP, si lors de ma première formation, j'ai
                 beaucoup utilisé PHP, Je n'ai vraiment pas apprécié travailler avec ce
                 langage, et pourtant, l'utilisation de Symfony fut une révélation pour
                 moi.
               </p>
 
-              <p className="techsP">
+              <p className="mx-2">
                 Avec une bonne utilisation du terminal, Il est aisé de créer des
                 fonctionnalités complètes, notamment, pour tout ce qui est Système
                 utilisateur, puisque des options natives de paramètrages et sécurité
