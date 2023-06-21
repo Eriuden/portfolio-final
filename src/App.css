@@ -59,7 +59,6 @@
 }
 
 .modalBackground {
-  
   font-family: "Planewalker-italic";
 }
 
@@ -67,20 +66,8 @@
   background-image: url("./img/506-5062460_spell-circle-png-transparent-background-magic-circle-transparent.png");
   backgournd-size: contain;
   background-repeat: no-repeat;
-  height: 1200px;
-  width: 850px;
 }
 
-.circle-nav {
-  max-width:100%;
-  max-height:100%;
-}
-
-.story {
-  display: flex;
-  flex-direction:row;
-  align-self:self-end;
-}
 
 @keyframes App-logo-spin {
   from {

@@ -18,14 +18,14 @@ export const LanguageModal = ({props}) => {
   return (
     <>
         {isOpen ? (
-          <div className='modalBackground flex flex-col text-lg'>
+          <div className='modalBackground flex flex-col sm:text-lg md:text-xl lg:text-2xl'>
             <div className='modalContainer mt-2 mb-6'>
                 <h2 className='title'>Languages et arcanes</h2>
                 <button className='titleCloseBtn' onClick={close}>X</button>              
             </div>
 
             <div className="JS">
-              <img className="Images max-w-[10%] mb-6" src={ImagesJs} alt="JS" />
+              <img className="Images max-w-[20%] sm:max-w-[10%] mb-6" src={ImagesJs} alt="JS" />
               <p className="techsP mx-2">
                 C'est le premier vrai langage auquel je me suis frotté, c'est en
                 partie pour ça que j'ai vite décidé de me spécialiser dans celui ci au
@@ -35,7 +35,7 @@ export const LanguageModal = ({props}) => {
             </div>
 
             <div className="React flex flex-col">
-              <img className="Images max-w-[10%] mb-6" src={ImagesReact} alt="React" />
+              <img className="Images max-w-[35%] sm:max-w-[15%] mb-6" src={ImagesReact} alt="React" />
 
               <p className=" mx-2">
                 {" "}
@@ -56,7 +56,7 @@ export const LanguageModal = ({props}) => {
             </div>
 
             <div className="Tailwind">
-              <img className="Images max-w-[10%] mb-6" src={ImagesTailwind} alt="Tailwind" />
+              <img className="Images max-w-[35%] sm:max-w-[15%] mb-6" src={ImagesTailwind} alt="Tailwind" />
               <p className="mx-2">
                 Un frameword de CSS, tout comme bootstrap, mais je vais être honnête,
                 dix fois mieux à mes yeux. En effet, si ici aussi il permet de
@@ -67,7 +67,7 @@ export const LanguageModal = ({props}) => {
             </div>
 
             <div className="Node">
-              <img className="Images max-w-[10%] mb-6" src={ImagesNode} alt="Node" />
+              <img className="Images max-w-[25%] sm:max-w-[10%] mb-6" src={ImagesNode} alt="Node" />
 
               <p className="mx-2">
                 Le fameux environnement back-end de Javascript, où quand l'un des plus
@@ -85,7 +85,7 @@ export const LanguageModal = ({props}) => {
             </div>
 
             <div className="MongoDB">
-              <img className="Images max-w-[10%] mb-6" src={ImagesMongo} alt="MongoDB" />
+              <img className="Images max-w-[25%] sm:max-w-[10%] mb-6" src={ImagesMongo} alt="MongoDB" />
 
               <p className="mx-2">
                 Découvert alors que je m'entrainais sur un projet en MERN, je ne l'ai
@@ -99,7 +99,7 @@ export const LanguageModal = ({props}) => {
             </div>
 
             <div className="MySQL">
-              <img className="Images max-w-[10%] mb-6" src={ImagesMySQL} alt="MySQL" />
+              <img className="Images max-w-[35%] sm:max-w-[15%] mb-6" src={ImagesMySQL} alt="MySQL" />
 
               <p className="mx-2">
                 Le système de gestion de base de données avec lequel j'ai commencé le
@@ -111,7 +111,7 @@ export const LanguageModal = ({props}) => {
             </div>
 
             <div className="Symfony">
-              <img className="Images max-w-[10%] mb-6" src={ImagesSymfony} alt="symfony" />
+              <img className="Images max-w-[35%] sm:max-w-[15%] mb-6" src={ImagesSymfony} alt="symfony" />
 
               <p className="mx-2">
                 Avec Laravel, LE framework PHP, si lors de ma première formation, j'ai
