@@ -28,20 +28,20 @@ export const Circle = (props) => {
   return (
     <div className='circle max-w-full '>
         <div className="circle-nav max-h-full">
-            <ul className="flex flex-row justify-around max-h-full text-sm sm:text-lg">
+            <ul className=" flex flex-row justify-around mx-12 max-h-full sm:text-lg text-blue-300">
                 <li onClick={handleModals} 
                     id="language" 
-                    className="mx-6 ">Langages et arcanes
+                    className="mx-2 ">Langages et arcanes
                 </li>
 
                 <li onClick={handleModals} 
                     id="exp" 
-                    className="mx-6 ">Mes expériences et projets
+                    className="mx-2 self-end">Mes expériences et projets
                 </li>
 
                 <li onClick={handleModals} 
                     id="story" 
-                    className="mx-6 ">Mon histoire
+                    className="mx-2 ">Mon histoire
                 </li>
             </ul>
             {languageModal && <LanguageModal />}
