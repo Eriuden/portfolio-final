@@ -24,6 +24,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -44,6 +45,20 @@
   background-size: contain;
   background-repeat: no-repeat;
   font-family: "Planewalker-italic";
+}
+
+@media screen and (max-width:480px) {
+ .mail{
+  font-size:70%;
+  margin-left:2%;
+ }
+}
+
+@media screen and (max-width:480px) {
+ .phone{
+  font-size:70%;
+  margin-left:2%;
+ }
 }
 
 .zone-nom {

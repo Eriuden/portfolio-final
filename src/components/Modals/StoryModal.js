@@ -18,7 +18,7 @@ export const StoryModal = ({props}) => {
                 <button onClick={close}>X</button>
             </div>
 
-            <img className='photo-profil rounded-full max-w-xs mb-6' src={Photo} alt="profil" />
+            <img className='photo-profil rounded-full max-w-[50%] mb-6' src={Photo} alt="profil" />
 
             <section className='quiSuisJeSection'>
               <article className='quiSuisJeArticle'>
