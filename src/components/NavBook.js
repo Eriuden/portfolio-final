@@ -15,7 +15,7 @@ export const NavBook = () => {
         {hamburger ? (
             /* Globalement le grimoire tient bien, mais un point faible
             pas n'importe quel point faible, il vient techniquement de tailwind
-            puisque celui ci
+            puisque celui ci, gêne entre 500-280 px de large pour le mail
             J'ai une solution temporaire grâce au media querie, c'est responsive
             mais trop petit, et donc, exige le zoom
             Globalement, comme beaucoup d'éléments du site, un responsive hardu,
