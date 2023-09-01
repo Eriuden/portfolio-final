@@ -9,16 +9,18 @@ import ImagesMySQL from "../../img/mysql-logo-text-face-symbol-transparent-png-2
 import ImagesTailwind from "../../img/tailwindcss.png"
 import ImagesNode from "../../img/Node.js_logo.svg.png"
 
-export const LanguageModal = ({props}) => {
+export const LanguageModal = () => {
   const [isOpen, setIsOpen] = useState(true)
 
     const close =() => {
-      setIsOpen(!isOpen)
+        setIsOpen(!isOpen)     
     }
+
   return (
     <>
         {isOpen ? (
-          <div className='modalBackground flex flex-col sm:text-lg md:text-xl lg:text-2xl'>
+          <div className='modalBackground flex flex-col sm:text-lg md:text-xl lg:text-2xl'
+          >
             <div className='modalContainer mt-2 mb-6'>
                 <h2 className='title'>Languages et arcanes</h2>
                 <button className='titleCloseBtn' onClick={close}>X</button>              

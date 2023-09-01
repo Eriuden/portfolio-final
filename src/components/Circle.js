@@ -1,28 +1,34 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 import { ExpModal } from './Modals/ExpModal'
 import { LanguageModal } from './Modals/LanguageModal'
 import { StoryModal } from './Modals/StoryModal'
 
-export const Circle = (props) => {
+
+//Alors coco, toi en css, tu vas être un boss final !
+//Si je fait tout le css que je désire pour lui,
+// qu'on me dise pas que c'est pas mon truc !
+export const Circle = () => {
     const [languageModal, setLanguageModal] = useState(false)
     const [expModal, setExpModal] = useState(false)
     const [storyModal, setStoryModal] = useState(false)
 
     const handleModals = (e) => {
-        if (e.target.id === "language"){
-            setExpModal(false)
-            setStoryModal(false)
-            setLanguageModal(!languageModal)
-        } else if(e.target.id === "exp") {
-            setExpModal(!expModal)
-            setStoryModal(false)
-            setLanguageModal(false)
-        }
-        else if(e.target.id === "story") {
-            setExpModal(false)
-            setStoryModal(!storyModal)
-            setLanguageModal(false)
-        }
+        setTimeout(()=> {
+            if (e.target.id === "language"){
+                setExpModal(false)
+                setStoryModal(false)
+                setLanguageModal(!languageModal)
+            } else if(e.target.id === "exp") {
+                setExpModal(!expModal)
+                setStoryModal(false)
+                setLanguageModal(false)
+            }
+            else if(e.target.id === "story") {
+                setExpModal(false)
+                setStoryModal(!storyModal)
+                setLanguageModal(false)
+            }
+        },50)   
       }
 
   return (

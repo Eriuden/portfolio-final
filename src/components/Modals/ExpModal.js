@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import"../../Modal.css";
 
-export const ExpModal = ({props}) => {
+export const ExpModal = () => {
     const [isOpen, setIsOpen] = useState(true)
 
     const close =() => {
@@ -88,7 +88,7 @@ export const ExpModal = ({props}) => {
                         notamment, si il est une menace pour l'humanité et/ou la nature.
                         Un agent à la possibilité de créer un dossier, si l'on observe
                         un nouveau kaiju, il peut mettre à jour les informations à son
-                        sujet, enfin, si l'animal est tué par l'agence où un autre
+                        sujet, enfin, si l'animal est tué par l'agence ou un autre
                         kaiju, il est possible d'effacer le dossier.
                     </p>
 

@@ -1,11 +1,9 @@
-import React, { useState } from 'react'
-import { Squash as Hamburger } from "hamburger-react"
-import Github from "../img/GitHub-Logo.png"
-import Linkedin from "../img/LinkedIn-Symbole.png"
+import React from 'react'
+
 
 
 export const Header = () => {
-    const [hamburger, setHamburger] = useState(false)
+    
 
   return (
     <div>
@@ -13,8 +11,6 @@ export const Header = () => {
             <h1 className='myName'>Antoine Carrette</h1>
             <h2 className='nickName'>Le magicien du code</h2>
         </div>
-
-        
         
     </div>
   )

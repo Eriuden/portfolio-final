@@ -13,13 +13,6 @@ export const NavBook = () => {
         </h2>
 
         {hamburger ? (
-            /* Globalement le grimoire tient bien, mais un point faible
-            pas n'importe quel point faible, il vient techniquement de tailwind
-            puisque celui ci, gêne entre 500-280 px de large pour le mail
-            J'ai une solution temporaire grâce au media querie, c'est responsive
-            mais trop petit, et donc, exige le zoom
-            Globalement, comme beaucoup d'éléments du site, un responsive hardu,
-            Le Galaxy fold surtout, avec son écran fin comme une tige, est un problème ! */
              
             <nav className='flex flex-col items-start justify-start 
             ml-3.5 absolute opacity-100
@@ -58,8 +51,6 @@ export const NavBook = () => {
 
                 </ul>
                 
-                
-
             </nav>
         ) : ""}
     </div>

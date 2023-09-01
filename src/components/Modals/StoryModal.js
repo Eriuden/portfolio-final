@@ -3,7 +3,7 @@ import { useState } from 'react'
 import"../../Modal.css";
 import Photo from '../../img/photo-profil.jpg'
 
-export const StoryModal = ({props}) => {
+export const StoryModal = () => {
     const [isOpen, setIsOpen] = useState(true)
 
     const close =() => {

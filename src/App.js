@@ -5,8 +5,9 @@ import { NavBook } from './components/NavBook';
 import { Home } from './pages/Home';
 
 function App() {
+  
   return (
-    <div className="App">
+    <div className="App ">
 
       <Header/>
       <NavBook/>
