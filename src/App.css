@@ -8,6 +8,16 @@
   src: url("./fonts/planewalker/Planewalker Bold.otf");
 }
 
+@font-face {
+  font-family: "IM-fell-Great-Primer";
+  src: url("./fonts/IM_Fell_Great_Primer/IMFellGreatPrimer-Regular.ttf");
+}
+
+@font-face {
+  font-family: "IM-fell-Great-Primer-Italic";
+  src: url("./fonts/IM_Fell_Great_Primer/IMFellGreatPrimer-Italic.ttf");
+}
+
 .App {
   text-align: center;
   background: cover;
@@ -24,7 +34,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 
 .App-header {
   background-color: #282c34;
@@ -45,22 +54,7 @@
   background-image: url("./img/lHYX1C.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  font-family: "Planewalker-italic";
-}
-
-.navBook:active {
-  animation-name: open;
-  animation-duration: 2.5s;
-  animation-iteration-count: 1;
-}
-
-@keyframes open {
-  from {
-    
-  }
-  to {
-    
-  } 
+  font-family: "IM-fell-Great-Primer-Italic";
 }
 
 @media screen and (max-width:480px) {
@@ -79,14 +73,14 @@
 
 .zone-nom {
   color:gold;
-  font-family: "Planewalker-italic";
+  font-family: "IM-fell-Great-Primer";
   text-align: center;
   font-size: 200%;
   text-shadow: 2px 2px #000;
 }
 
 .navBook p {
-  font-family: "planewalker-bold"; 
+  font-family: "IM-fell-Great-Primer"; 
 }
 
 .modalBackground {
@@ -102,7 +96,7 @@
 }
 
 .circle-nav{
-  font-family: "Planewalker-italic";
+  font-family: "IM-fell-Great-Primer";
 }
 
 #language{

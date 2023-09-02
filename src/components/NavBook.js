@@ -19,7 +19,10 @@ export const NavBook = () => {
           
           setNavSize(0);
         }
-      }, [hamburger]);
+      }, [hamburger]); 
+
+      //L'effet vient provoquer des problèmes de responsive cependant
+      //Même avec des corrections, d'ou le fait que je n'ai pas mis navSize
 
   return (
     <div className='sticky top-0'>
@@ -32,7 +35,6 @@ export const NavBook = () => {
             <nav className='flex flex-col items-start justify-start 
             ml-3.5 absolute opacity-100
              md:max-w-[55%] xl:max-w-[45%]  navBook'
-             style={{ width: `${navSize}%`, transition: 'width 0.3s ease-in-out' }}
             >
                 <ul className=' text-xs sm:text-xs md:text-md lg:text-lg xl:text-xl '>
                     <li className='flex flex-row my-1   '>
@@ -40,21 +42,21 @@ export const NavBook = () => {
                         <p className='mail ml-[8%] sm:ml-[20%] md:ml-[20%] lg:ml-[7%] 2xl:ml-[10%] mt-4 sm:mb-2  '>antoinecarrette@hotmail.fr</p>
                     </li>
 
-                    
+                        
                     <li className='flex flex-row my-2 '>
                         <h3 className='mx-6 sm:mt-4 sm:mb-4 '>Appel télépathique</h3>
                         <br/>
                         <p className=' phone ml-[8%] sm:ml-[20%] md:ml-[17%] lg:ml-[12%] 2xl:ml-[15%] sm:mt-4 sm:mb-2  '>06.24.66.24.51</p>
                     </li>
-             
+                
 
                     <li className='flex flex-row my-2'>
                         <h3 className='ml-6 sm:mt-4 sm:mb-4 '>Chambre du conseil</h3>
                         <a className=" ml-24 sm:ml-12" href="https://www.linkedin.com/in/antoine-carrette-070401b3/">
                             <img src={Linkedin} alt="linkedin" className="xs:ml-[20%] sm:ml-[24%] md:ml-[28%] lg:ml-[28%] 2xl:ml-[25%] max-w-[30%] max-h-[30%] mt-4 mb-4  "/>
-		                </a>
+                        </a>
                     </li>
-              
+                
 
                     <li className='flex flex-row my-2'>
                         <h3 className='mx-6 sm:mt-4 sm:mb-4 md:mt-2 md:mb-2'>Ma tour</h3>
@@ -63,10 +65,11 @@ export const NavBook = () => {
                         </a>
                     </li>    
 
-                </ul>
+                </ul>       
                 
             </nav>
         ) : ""}
+
     </div>
   )
 }

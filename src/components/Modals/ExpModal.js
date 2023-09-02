@@ -12,7 +12,7 @@ export const ExpModal = () => {
         {isOpen ? (
             <div className=' m-x-[50%] modalBackground flex flex-col text-lg'>
                 <div className='modalContainer  mt-2 mb-6'>
-                    <h2>Mes créations</h2>
+                    <h2>Mes Expériences et projets</h2>
                     <button onClick={close}>X</button>
                 </div>
 
